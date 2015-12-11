@@ -1,0 +1,305 @@
+header{
+    background: #3D4450;
+    nav{
+        height: 94px;
+        width: 720px;
+        margin: 0 auto;
+        a:first-child{
+            height: 54px;
+            display: block;
+            width: 200px;
+            margin: auto;
+            img{
+                position: relative;
+                top: -3px;
+                display: block;
+            }
+            span{
+                display: hidden;
+            }
+        }
+        a{
+            color: white;
+            font-size: 14px;
+            padding: 0px 8px;
+            display: inline-block;
+            &:hover{color:white;}
+            img{position: relative;top: -3px;}
+            span{padding: 0px 5px;}
+        }  
+    }
+}
+
+
+#content{
+    width: 720px;
+    margin: 30px auto;
+   
+    .outside{
+        width: 720px;
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-orient: vertical;
+        -webkit-box-orient: vertical;
+        .left{  
+            width: 720px;
+//          margin-right: 30px;
+            display: -moz-box;
+            display: -webkit-box;
+            -moz-box-orient: vertical;
+            -webkit-box-orient: vertical;
+            p.top{
+                background: white;
+                width: 100%;
+                font-size: 12px;
+                display: block;
+                padding: 20px 30px 20px 20px;
+                box-shadow:0px 0px 2px #C2C2C2;
+                border-radius: 10px;
+                position: relative;
+                span:first-child{
+                    color: #B94A48;
+                    font-weight: 500;
+                }
+                span:nth-last-child(1){
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    font-weight: 600;
+                }
+            }
+            section{
+                margin: 15px 0px 30px;
+                width: 616px;
+                box-shadow:0px 0px 4px black;
+                border-radius: 5px;
+            }
+            section.lunbo{
+                position: relative;
+                li img{
+                    width: 720px;
+                    border-radius: 5px;
+                 
+                }
+                li{
+                    display: none;
+                }
+                li:first-child{
+                    display: block;
+                }
+                span{
+                    position: absolute;color: white;
+                    font-size: 25px;
+                    top: 44%;
+                }
+                span.glyphicon-menu-left{
+                    left: 20px;
+                    
+                }
+                span.glyphicon-menu-right{
+                    right: 20px;             
+                }
+            }
+            section.content{
+                width: 100%;
+//              border: 5px solid red;这药问题出现在p.desc里面的width
+                figure{
+//                  box-shadow:0px 0px 4px black;
+                    padding: 10px 0 15px;
+                    width: 100%;
+                    figcaption{
+                        margin: 20px 0px 30px;
+                        font-size: 18px;
+                        color: #D2322D;
+                        text-indent: 1.5em;
+                    }
+                    li.link{
+                        position: relative;
+                        top: -20px;
+                        a{
+                            text-align: center;
+                            font-size: 11px;
+                            color: #3D4450;
+                            text-indent: 2em;
+                            &:hover{
+                                cursor: default;
+                            }
+                        }
+                    }
+                    img{
+                        width: 95%;
+                        display: block;
+                        margin: 0 auto;        
+                        border-radius: 5px;        
+                    }
+                                            
+                    p.desc{
+                        color: #666;
+                        width: 686px;
+                        font-size: 12px;
+                        margin: 15px auto;
+                        background: #E9E8E8;
+                        padding: 20px;
+                        border-radius: 5px;
+                    }
+                    p.button{
+                        width: 95%;
+                        margin: 0px auto;
+                        overflow: hidden;
+                        button{
+                            float: right;
+                        }
+                    }
+                } 
+              
+            } 
+    
+        }
+        .right{
+            div.form{
+                box-shadow:0px 0px 4px black;
+                border-radius: 5px;
+                background: white;
+                margin-bottom: 20px;
+                p.title{
+                    height: 34px;
+                    line-height: 34px;
+                    text-indent: 10px;
+                    background: #3D4450;
+                    color: white;
+                }
+                form.login{ 
+                    padding: 20px 20px;
+                    div.input-group{
+                        width: 680px;
+                        height: 34px;
+                        margin-bottom: 15px;
+                        div.input-group-addon{
+                            background: #D9534F;
+                            width: 40px;
+                            span{
+                                color: white;
+                            }
+                        }
+                        button{
+                            width: 47%;
+                            background: #3D4450;
+                            color: white;
+                        }
+                        button:first-child{
+                            float: left;
+                        }
+                        button:last-child{
+                            float: right;
+                        }
+                    }
+                }
+            }
+            
+        
+             div.search{
+                width: 100%;
+                height: 54px;
+                background: #3D4450;
+                padding: 10px;
+                margin-bottom: 20px;
+                box-shadow:0px 0px 4px black;
+                border-radius: 5px;
+                form.form-inline{
+                    div.form-group{
+                        width: 100%;
+                        div.input-group{
+                            width: 100%;
+                            input{
+                                width: 90%;
+                                border-radius: 5px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+            div.article{
+                background: white;
+                margin-bottom: 25px;
+                box-shadow:0px 0px 4px black;
+                border-radius: 5px;
+                p.title{
+                    height: 34px;
+                    line-height: 34px;
+                    text-indent: 10px;
+                    background: #3D4450;
+                    color: white;
+                }
+                p.list{
+                    padding: 10px 15px;
+                    font-size: 12px;
+                    color: #666;
+                    border-bottom: 1px solid #DDD;
+                    span{
+                        background-color: #D9534F;
+                        color: white;
+                        border-radius: 7px;
+                        padding:0px 5px;
+                        float:right;
+                       
+                    }
+                }
+            }
+            div.comment{
+                background: white;
+                box-shadow:0px 0px 4px black;
+                border-radius: 5px;
+                p.title{
+                    height: 34px;
+                    line-height: 34px;
+                    text-indent: 10px;
+                    background: #3D4450;
+                    color: white;
+                }
+                p.list{
+                    height: 60px;
+                    padding: 10px 15px;
+                    font-size: 12px;
+                    color: #666;
+                    border-bottom: 1px solid #DDD;
+                    img{
+                        border-radius: 50%;
+                        position: relative;
+                        top: -15px;
+                    }
+                    span{
+                        width: 71%;
+                        overflow: hidden;
+                        background-color: #EEEEEE;
+                        height: 36px;
+                        display: inline-block;
+                        line-height: 36px;
+                        border-radius: 5px;
+                        padding:0px 10px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+footer{
+    height: 120px;
+    background: #3D4450;
+    
+    p{
+        width: 720px;
+        color: #EEE;
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+}

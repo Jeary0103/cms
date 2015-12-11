@@ -1,0 +1,853 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>河南嘉展商贸有限公司</title>
+<link href="http://cmstop.hd/template/self/images/style.css" rel="stylesheet" type="text/css" />
+<script src="http://cmstop.hd/template/self/js/jquery.js" type="text/javascript"></script>
+<script src="http://cmstop.hd/template/self/js/nav1.js" language="JavaScript"></script>
+<script src="http://cmstop.hd/template/self/js/nav2.js" language="JavaScript"></script>
+<!--jiaodian-->
+<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+
+            <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+            <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet">
+            <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+<script type="text/javascript">
+$(function() {
+    var sWidth = $("#focus").width(); //获取焦点图的宽度（显示面积）
+    var len = $("#focus ul li").length; //获取焦点图个数
+    var index = 0;
+    var picTimer;
+    
+    //以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
+    var btn = "<div class='btnBg'></div><div class='btn'>";
+    for(var i=0; i < len; i++) {
+        btn += "<span></span>";
+    }
+    btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+    $("#focus").append(btn);
+    $("#focus .btnBg").css("opacity",0.5);
+
+    //为小按钮添加鼠标滑入事件，以显示相应的内容
+    $("#focus .btn span").css("opacity",0.4).mouseenter(function() {
+        index = $("#focus .btn span").index(this);
+        showPics(index);
+    }).eq(0).trigger("mouseenter");
+
+    //上一页、下一页按钮透明度处理
+    $("#focus .preNext").css("opacity",0.2).hover(function() {
+        $(this).stop(true,false).animate({"opacity":"0.5"},300);
+    },function() {
+        $(this).stop(true,false).animate({"opacity":"0.2"},300);
+    });
+
+    //上一页按钮
+    $("#focus .pre").click(function() {
+        index -= 1;
+        if(index == -1) {index = len - 1;}
+        showPics(index);
+    });
+
+    //下一页按钮
+    $("#focus .next").click(function() {
+        index += 1;
+        if(index == len) {index = 0;}
+        showPics(index);
+    });
+
+    //本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+    $("#focus ul").css("width",sWidth * (len));
+    
+    //鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+    $("#focus").hover(function() {
+        clearInterval(picTimer);
+    },function() {
+        picTimer = setInterval(function() {
+            showPics(index);
+            index++;
+            if(index == len) {index = 0;}
+        },4000); //此4000代表自动播放的间隔，单位：毫秒
+    }).trigger("mouseleave");
+    
+    //显示图片函数，根据接收的index值显示相应的内容
+    function showPics(index) { //普通切换
+        var nowLeft = -index*sWidth; //根据index值计算ul元素的left值
+        $("#focus ul").stop(true,false).animate({"left":nowLeft},300); //通过animate()调整ul元素滚动到计算出的position
+        //$("#focus .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
+        $("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300); //为当前的按钮切换到选中的效果
+    }
+});
+
+</script>
+
+<!--jiaodian-->
+<!--切换-->
+<script>
+<!--
+/*第一种形式 第二种形式 更换显示样式*/
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"hover":"";
+con.style.display=i==cursel?"block":"none";
+}
+}
+//-->
+</script>
+<!--切换-->
+</head>
+
+<body>
+
+<!--top-->
+<div class="top_bg">
+ <div class="log_nav">
+  <div class="log_ad">
+   <ol><img src="http://cmstop.hd/template/self/images/index_r1_c21.jpg" /></ol>
+   <!--nav-->
+   <div class="nav_main">
+  <div class="nav">
+            <div class="menu nav_menu">
+                <ul class="nav1" style="font-size: 100px;font-weight: 700;color: black">
+                                  
+                      <li class="mainlevel"><a 
+                                        
+                            href="/"
+                                              >首页</a>
+                          <ul>
+                                                              </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_2"
+                        
+                                     >新闻</a>
+                          <ul>
+                                            
+                              <li><a href="list_10">政经要闻</a></li>
+                            
+                
+                              <li><a href="list_11">区域新闻</a></li>
+                            
+                
+                              <li><a href="list_12">金融投资</a></li>
+                            
+                
+                              <li><a href="list_13">公司产业</a></li>
+                            
+                                  </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_3"
+                        
+                                     >评论</a>
+                          <ul>
+                                                              </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_4"
+                        
+                                     >观察</a>
+                          <ul>
+                                            
+                              <li><a href="list_14">观察家</a></li>
+                            
+                
+                              <li><a href="list_15">专栏作家</a></li>
+                            
+                
+                              <li><a href="list_16">记者专栏</a></li>
+                            
+                                  </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_5"
+                        
+                                     >多媒体</a>
+                          <ul>
+                                            
+                              <li><a href="list_17">欢乐财经</a></li>
+                            
+                
+                              <li><a href="list_18">半上流社会那些事</a></li>
+                            
+                
+                              <li><a href="list_19">橙色视点</a></li>
+                            
+                                  </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_6"
+                        
+                                     >生活</a>
+                          <ul>
+                                                              </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_7"
+                        
+                                     >电子报</a>
+                          <ul>
+                                                              </ul>
+                      </li>
+                  
+                
+                      <li class="mainlevel"><a 
+                                                    href="list_8"
+                        
+                                     >活动</a>
+                          <ul>
+                                                              </ul>
+                      </li>
+                  
+                            
+                </ul>
+            </div>
+            </div>
+  </div>
+ </div>
+</div>
+</div>
+
+ <div id="focus">
+        <ul>
+            <li><a href="http://www.#.com/" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r3_c1.jpg"  /></a></li>
+            <li><a href="http://www.#.com/" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r3_c1.jpg"  /></a></li>
+            <li><a href="http://www.#.com/" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r3_c1.jpg"  /></a></li>
+        </ul>
+</div>
+
+<div class="x_mu_ad">
+ <ul>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c1.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c13.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c14.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c19.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c22.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c23.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="http://cmstop.hd/template/self/images/index_r5_c27.jpg"  /></a></li>
+ </ul>
+</div>
+
+
+<div class="notice">
+ <ol><img src="http://cmstop.hd/template/self/images/index_r8_c4.jpg" /></ol>
+ <ul>
+                    
+          <li><a href="article_36">关于假期休市的公告[07-28]</a></li>
+    
+                   
+          <li><a href="article_37">关于建设银行开通网上开户业[07-28]</a></li>
+    
+                   
+          <li><a href="article_38">怎么样做仿站[07-28]</a></li>
+    
+       
+ </ul>
+</div>
+<div class="main_inf">
+ <!--left-->
+ <div class="main_inf_left">
+  <div class="r1_top"> 
+                   
+
+           <p><a href="list_22">每日点评</a></p>
+        <span><a href="list_22">更多>> </a></span>
+  </div>
+  <div class="r1_bot">
+ 
+        <ol>
+                <a href="article_35" id="red">中国：能应对1.5次金融危机</a><br />
+                <p>
+	<strong>经济观察网 文天成/文</strong> 今天的股市又大跌：沪指创8年最大跌幅，两市再现千股跌停。据说是因为六大利空消息，如IMF敦促中国退出救市措施、美联储加息等等。
+</p>
+<p>
+	此前政府出手救市，就是因为股市连续急跌会影响中国经济安全。那么，这次大跌会有严重后果吗？会不会让中国陷入金融危机？
+</p>
+<p>
+	“任何唱空中国的言论都站不住脚。” 社科院金融与发展实验室理事长李扬介绍了国家资产负债表的情况称，在较长时期内，中国发生主权债务危机为小概率事件。
+</p>
+<p>
+	近日，中国社会科学院发布《中国国家资产负债表2015：杠杆调整与风险管理》(下称《资产负债表2015》)报告称，2007~2013年，国家
+总资产从284.7万亿元增加至691.3万亿元，年均增长67.8万亿元，2013年我国国家净资产352.2万亿元。同期，国家总负债从118.9万
+亿元增加到339.1万亿元，增长220.2万亿元，年均增长36.7万亿元。
+</p>
+<p>
+	报告作者之一，社科院国家金融与发展实验室副主任张晓晶在发布会上表示，假设一次金融危机致GDP跌30%，我国352.2万亿元的净资产能应对1.5次金融危机。
+</p>
+<p style="text-align:center;">
+	<strong>2013年便已“赶英超美”？</strong>
+</p>
+<p>
+	李扬在《中国国家资产负债表2015》发布会上表示，无论何种口径，中国的主权资产净额均为正值，表明中国政府拥有足够的主权资产来覆盖其主权负债。因此，在较长的时期内，中国发生主权债务危机应为小概率事件。
+</p>
+<p>
+	按宽口径匡算，2014年中国主权资产总计227.3万亿元，主权负债124万亿元，资产净值为103.3万亿元。
+</p>
+<p>
+	还有专家在《资产负债表2015》研讨会上表示，美国2013年以前资产是55万亿美元，按照折算是340万亿人民币;而我国2013年的净资产是352万亿。
+</p>
+<p>
+	当然，该专家同样表示，这种简单比较是不可取的，因为美国的总资产统计口径与中国不同，比如在美国，居民的汽车没计算在总资产内的。此外，张晓晶表
+示，在《资产负债表2015》进行编制时，地方资产里面基础设施没有放进统计口径，很多资产是按照当时的成本价，“根据现在的市场价已经翻了很多倍，我们
+是很低的估算。”
+</p>
+<p>
+	财税专家李文海在接受《每日经济新闻》采访时称，国家总资产是衡量一个国家综合国力的主要指标之一，但就经济现状和未来政策建议的启发性较小，因为它不能清晰反应结构问题。不同类别的资产负债表对经济运行监测和调控更有意义。
+</p>
+<p>
+	具体来看，2000年至2014年，国有企业总资产占非金融企业总资产的比例由43.8%下降到30.2%，工业企业总资产占非金融企业总资产的比
+例则从34.5%下降到27.4%。李扬表示，国有企业总资产规模略有增加的同时其占比持续下降，反映了民营和非公经济随改革深化强势崛起的事实；工业企
+业总资产规模略有增加的同时其占比下降，则反映了我国产业结构不断优化升级的良性变化。
+</p>
+<p style="text-align:center;">
+	<strong>非金部门杠杆率过高，敲响警钟</strong>
+</p>
+<p>
+	从国家层面的资产负债率的变化趋势看，2007年—2013年国家负债率由41.8%提高到了49%，其中，2009年、2012年和2013年上升较为明显。这说明，国家负债率上升与国际金融危机和国内经济下滑密切相关。
+</p>
+<p>
+	李扬提醒说，包括养老金缺口以及银行显性和隐性不良资产在内的或有负债风险值得关注。一旦经济增长速度长期持续下滑并致使“或有”负债不断“实有”化，中国的主权净资产的增长动态有可能逆转，对此不可掉以轻心。
+</p>
+<p>
+	特别是中国非金融企业部门杠杆率水平在所比较的国家中是最高的，其隐含的风险值得关注。
+</p>
+<p>
+	李扬表示，通过将中国与美、英、德、日四国比较，非金融企业的资产负债率和负债占GDP比率，是一个随着国家经济和金融体制特点以及经济发展阶段不
+同，而存在着较大差异的经济现象。“通过国际比较，我们发现，中国非金融企业部门杠杆率水平在所比较的国家中是最高的，其隐含的风险值得关注。”
+</p>
+<p>
+	在《中国国家资产负债表2015》发布会上，几位专家均表示，无论取何种口径，中国的杠杆率迅速上升都是确定无疑的事实，不可不保持高度警惕。去杠杆是克服危机、调整经济结构、促使国民经济恢复健康不可或缺的关键环节。
+</p>
+<p>
+	如何去杠杆？李扬表示，从债务率=债务/收入这个公式出发，去杠杆的方略可有“分子对策”和“分母对策”两类。分子对策即对分子（即债务）进行调
+整，手段包括：偿还债务、债务减计、政府或中央银行承接债务、降低利息支出等。其中，偿还债务是去杠杆的基本途径，用出售资产的方式偿债，更是去杠杆的正
+途。但是，任何减债的方式都有紧缩作用，这是不可忽视的副作用；分母对策即对分母进行调整，手段包括结构性改革、扩大真实GDP规模、或通过通货膨胀扩大
+名义GDP规模等。分母对策不会像分子对策那样立刻见效，但却是治本之道。近期的希腊债务危机，在经历了大范围的迂回之后，不得不走回以改革换救助之路。
+这告诉我们，改革，并以此保持一定水平的增长速度，依然是解决一切问题的关键所在。
+</p>        </ol>
+        <ul>
+      
+                    
+
+                 <li>[07-15] <a href="article_39">祝宝良：财政要发力 货币要宽松</a> </li>
+      
+                    
+
+                 <li>[07-15] <a href="article_40">沪指创8年最大跌幅 机构：今日大跌确立了新一波寻底</a> </li>
+      
+           </ul>
+  
+  </div>
+
+                
+     <div class="r1_top" style="margin-top:10px;">
+       <p><a href="list_23">盘面播报</a></p>
+       <span><a href="list_23">更多>> </a></span>
+      </div>
+      <div class="r2_bot">
+       <ol>
+       <img src="Upload//52211438137411.jpg" /> <a href="article_43" >中国：能应对1.5次金融危机</a><br />
+      <p>
+	<strong>经济观察网 文天成/文</strong> 今天的股市又大跌：沪指创8年最大跌幅，两市再现千股跌停。据说是因为六大利空消息，如IMF敦促中国退出救市措施、美联储加息等等。
+</p>
+<p>
+	此前政府出手救市，就是因为股市连续急跌会影响中国经济安全。那么，这次大跌会有严重后果吗？会不会让中国陷入金融危机？
+</p>
+<p>
+	“任何唱空中国的言论都站不住脚。” 社科院金融与发展实验室理事长李扬介绍了国家资产负债表的情况称，在较长时期内，中国发生主权债务危机为小概率事件。
+</p>
+<p>
+	近日，中国社会科学院发布《中国国家资产负债表2015：杠杆调整与风险管理》(下称《资产负债表2015》)报告称，2007~2013年，国家
+总资产从284.7万亿元增加至691.3万亿元，年均增长67.8万亿元，2013年我国国家净资产352.2万亿元。同期，国家总负债从118.9万
+亿元增加到339.1万亿元，增长220.2万亿元，年均增长36.7万亿元。
+</p>
+<p>
+	报告作者之一，社科院国家金融与发展实验室副主任张晓晶在发布会上表示，假设一次金融危机致GDP跌30%，我国352.2万亿元的净资产能应对1.5次金融危机。
+</p>
+<p style="text-align:center;">
+	<strong>2013年便已“赶英超美”？</strong>
+</p>
+<p>
+	李扬在《中国国家资产负债表2015》发布会上表示，无论何种口径，中国的主权资产净额均为正值，表明中国政府拥有足够的主权资产来覆盖其主权负债。因此，在较长的时期内，中国发生主权债务危机应为小概率事件。
+</p>
+<p>
+	按宽口径匡算，2014年中国主权资产总计227.3万亿元，主权负债124万亿元，资产净值为103.3万亿元。
+</p>
+<p>
+	还有专家在《资产负债表2015》研讨会上表示，美国2013年以前资产是55万亿美元，按照折算是340万亿人民币;而我国2013年的净资产是352万亿。
+</p>
+<p>
+	当然，该专家同样表示，这种简单比较是不可取的，因为美国的总资产统计口径与中国不同，比如在美国，居民的汽车没计算在总资产内的。此外，张晓晶表
+示，在《资产负债表2015》进行编制时，地方资产里面基础设施没有放进统计口径，很多资产是按照当时的成本价，“根据现在的市场价已经翻了很多倍，我们
+是很低的估算。”
+</p>
+<p>
+	财税专家李文海在接受《每日经济新闻》采访时称，国家总资产是衡量一个国家综合国力的主要指标之一，但就经济现状和未来政策建议的启发性较小，因为它不能清晰反应结构问题。不同类别的资产负债表对经济运行监测和调控更有意义。
+</p>
+<p>
+	具体来看，2000年至2014年，国有企业总资产占非金融企业总资产的比例由43.8%下降到30.2%，工业企业总资产占非金融企业总资产的比
+例则从34.5%下降到27.4%。李扬表示，国有企业总资产规模略有增加的同时其占比持续下降，反映了民营和非公经济随改革深化强势崛起的事实；工业企
+业总资产规模略有增加的同时其占比下降，则反映了我国产业结构不断优化升级的良性变化。
+</p>
+<p style="text-align:center;">
+	<strong>非金部门杠杆率过高，敲响警钟</strong>
+</p>
+<p>
+	从国家层面的资产负债率的变化趋势看，2007年—2013年国家负债率由41.8%提高到了49%，其中，2009年、2012年和2013年上升较为明显。这说明，国家负债率上升与国际金融危机和国内经济下滑密切相关。
+</p>
+<p>
+	李扬提醒说，包括养老金缺口以及银行显性和隐性不良资产在内的或有负债风险值得关注。一旦经济增长速度长期持续下滑并致使“或有”负债不断“实有”化，中国的主权净资产的增长动态有可能逆转，对此不可掉以轻心。
+</p>
+<p>
+	特别是中国非金融企业部门杠杆率水平在所比较的国家中是最高的，其隐含的风险值得关注。
+</p>
+<p>
+	李扬表示，通过将中国与美、英、德、日四国比较，非金融企业的资产负债率和负债占GDP比率，是一个随着国家经济和金融体制特点以及经济发展阶段不
+同，而存在着较大差异的经济现象。“通过国际比较，我们发现，中国非金融企业部门杠杆率水平在所比较的国家中是最高的，其隐含的风险值得关注。”
+</p>
+<p>
+	在《中国国家资产负债表2015》发布会上，几位专家均表示，无论取何种口径，中国的杠杆率迅速上升都是确定无疑的事实，不可不保持高度警惕。去杠杆是克服危机、调整经济结构、促使国民经济恢复健康不可或缺的关键环节。
+</p>
+<p>
+	如何去杠杆？李扬表示，从债务率=债务/收入这个公式出发，去杠杆的方略可有“分子对策”和“分母对策”两类。分子对策即对分子（即债务）进行调
+整，手段包括：偿还债务、债务减计、政府或中央银行承接债务、降低利息支出等。其中，偿还债务是去杠杆的基本途径，用出售资产的方式偿债，更是去杠杆的正
+途。但是，任何减债的方式都有紧缩作用，这是不可忽视的副作用；分母对策即对分母进行调整，手段包括结构性改革、扩大真实GDP规模、或通过通货膨胀扩大
+名义GDP规模等。分母对策不会像分子对策那样立刻见效，但却是治本之道。近期的希腊债务危机，在经历了大范围的迂回之后，不得不走回以改革换救助之路。
+这告诉我们，改革，并以此保持一定水平的增长速度，依然是解决一切问题的关键所在。
+</p>       </ol><dl>
+
+                    
+    
+     <dd>
+        <a href="article_44">
+            中国经济低迷为兼并提供机会        </a>
+    </dd>
+    
+                    
+    
+     <dd>
+        <a href="article_45">
+            沪指创8年最大跌幅 机构：今日大跌确立了        </a>
+    </dd>
+    
+                    
+    
+     <dd>
+        <a href="article_46">
+            不动产登记落地仅剩4个月 国土部被迫地方        </a>
+    </dd>
+    
+                    
+    
+     <dd>
+        <a href="article_47">
+            不动产登记条例征求意见稿正式发布 农村房        </a>
+    </dd>
+    
+                    
+    
+     <dd>
+        <a href="article_48">
+            实体经济才是真正踏板：看各国救市“国家队        </a>
+    </dd>
+    
+           </dl>
+  </div>
+ </div>
+ <!--left-->
+ <!--mid-->
+                
+                
+    <div class="main_inf_mid">
+    <div class="main_inf_mid_top" >
+        <p><a href="list_24">分析研究</a></p>
+        <span><a href="list_24">更多>> </a></span>
+    </div>
+     <ol>
+        <img src="Upload//71791438143906.jpg" /> <a href="article_49" id="red" > 跨境资金已净流出两周</a><br />
+        <p>
+	<strong>经济观察网 </strong><strong>实习记者 </strong><strong>程瑞莲 </strong>昨日A股创8年来    </ol>
+
+                    
+    <ol>
+       <img src="Upload//71791438143906.jpg" /> <a href="article_50" id="red" >中央出台从严治吏新规</a><br />
+       <p>
+	【央行罕见发文传递股市维稳信号 总体物价仍将稳定   </ol>
+
+                    
+    <div class="div_li">
+    <dl>
+    <dd><a href="article_51">人民币汇率波幅或将提升至3%水平 </a></dd>
+
+                    
+    <dd><a href="article_52">祝宝良：财政要发力 货币要宽松</a></dd>
+
+               
+                    
+    <dd><a href="article_53">社会主义与生态危机的根本解决</a></dd>
+
+               
+                    
+    <dd><a href="article_54">央企降薪的改革逻辑</a></dd>
+
+               
+                    
+    <dd><a href="article_55">中国债市不应简单套用美国经验</a></dd>
+
+               
+                    
+    <dd><a href="article_56">协会有疾，根在政商关系</a></dd>
+
+               
+                    
+    <dd><a href="article_57">罗尔斯：公共理性</a></dd>
+
+               
+                    
+    <dd><a href="article_58">初衷虽是服务于知识分子写作</a></dd>
+
+               
+        </dl>
+   </div>
+ </div>
+ <!--mid-->
+ <!--right-->
+<div class="main_inf_right">
+                
+        <div class="s1_top">
+        <a href="list_25">贵金属交易价格</a>
+        </div>
+    <div class="s1_bot">
+        
+       <img src="Upload//18151438170033.jpg" />
+    </div>
+
+                        
+                    
+    <div class="s1_top">
+        <a href="list_26">资讯导读</a>
+    </div>
+    <div class="s2_bot">
+        <dl>
+        <dd><a href="article_61">机构爆“十三五”规划掘金攻略</a></dd>
+        
+                    
+            <dd><a href="article_62">震荡行情下需保持耐心</a></dd>
+    
+                   
+                    
+            <dd><a href="article_63">看各国救市“国家队”的曲折离场</a></dd>
+    
+                   
+                    
+            <dd><a href="article_64">以震荡格局中的防御策略应对</a></dd>
+    
+                   
+                    
+            <dd><a href="article_65">八年来单日最大跌幅 恐慌情绪是主因</a></dd>
+    
+                   
+                </dl>
+    </div>
+    <div class="ad_right">
+        <img src="http://cmstop.hd/template/self/images/index_r24_c26.jpg" />
+    </div>
+</div>
+ <!--right-->
+</div>
+
+<!--ad-->
+<div class="ad_main"><img src="http://cmstop.hd/template/self/images/index_r28_c2.jpg" /></div>
+<!--ad-->
+
+<!--信息-->
+<div class="main_inf">
+ <!--left-->
+<div class="main_inf_left">
+                
+                    
+    <div class="r1_top">
+        <p><a href="list_27">交易指南</a></p>
+        <span><a href="list_27">更多>> </a></span>
+    </div>
+    <div class="j_yi_bot">
+    <ul>
+        <li><em>开户指南</em><a href="article_68"> 中国：能应对1.5次金融危机… 详情></a></li>
+    
+                    
+            <li><em>开户指南</em><a href="article_69"> 中国人民解放军… 详情></a></li>
+    
+               
+                    
+            <li><em>开户指南</em><a href="article_70"> 天津贵金属交易所开户指南… 详情></a></li>
+    
+               
+                    
+            <li><em>开户指南</em><a href="article_71"> 中华人民共和国… 详情></a></li>
+    
+               
+                    
+            <li><em>开户指南</em><a href="article_72"> 煤炭生意很难做… 详情></a></li>
+    
+               
+                    
+            <li><em>开户指南</em><a href="article_73"> 煤炭生意很难做… 详情></a></li>
+    
+               
+            </ul>
+    </div>
+    <div class="r1_top">
+
+                
+                    
+        <p><a href="list_29">常见问题</a></p>
+        <span><a href="list_29">更多>> </a></span>
+    </div>
+    <div class="j_yi_bot1">
+    <dl>
+        <dd><span>07-30</span><a href="article_75">喜迎双节：礼迎圣诞</a></dd>
+    
+                    
+            <dd><span>07-30</span><a href="article_76">年终促冲量</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="article_77">喜迎双十一</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="article_78">圣诞节快乐</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="article_79">圣诞节快乐</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="article_80">最后一个常见问题</a></dd>
+    
+               
+           </dl>
+  </div>
+ </div>
+ <!--left-->
+ <!--mid-->
+ <div class="main_inf_mid1">
+   <div class="main_inf_mid_top" >
+   <p><a href="#">学习园地</a></p>
+   <span><a href="#">更多>> </a></span>
+  </div>
+  <!--1-->
+  <div id="Tab6">
+    <div class="Menubox6">
+      <ul>
+       <li class="hover" onmouseover="setTab('two',1,5)" id="two1">
+      <a href="#">投资入门</a>
+     </li>
+     <li onmouseover="setTab('two',2,5)" id="two2">
+       <a href="#">基本面分析</a>
+     </li>
+     <li onmouseover="setTab('two',3,5)" id="two3">
+       <a href="#">技术面分析</a>
+     </li>
+     <li onmouseover="setTab('two',4,5)" id="two4">
+       <a href="#">投资技巧 </a>
+     </li>
+     
+    </ul>
+    </div>
+    <div class="Contentbox6">
+    <div class="hover" id="con_two_1"> 
+     <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_2">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：f圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_3">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_4">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_5">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+   </div>
+  </div>
+  <!--1-->
+                
+                    
+        <div class="main_inf_mid_top" style="margin-top:18px" >
+        <p><a href="list_30">媒体报道</a></p>
+        <span><a href="list_30">更多>> </a></span>
+        </div>
+        <div class="j_yi_bot1">
+        <dl>
+        <dd><span>07-30</span><a href="#">河北新闻社媒体报道</a></dd>
+    
+                    
+            <dd><span>07-30</span><a href="#">微信媒体平台</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="#">QQ腾讯媒体报道</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="#">yahoo媒体平台</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="#">sina媒体平台</a></dd>
+    
+               
+                    
+            <dd><span>07-30</span><a href="#">最后一个媒体报道</a></dd>
+    
+               
+           </dl>
+  </div>
+ </div>
+ <!--mid-->
+ <!--right-->
+ <div class="main_inf_right1">
+  <div class="main_inf_ad">
+   <ul>
+    <li><a href="#"><img src="http://cmstop.hd/template/self/images/index1_r43_c44.jpg" /></a></li>
+    <li><a href="#"><img src="http://cmstop.hd/template/self/images/index_r45_c44.jpg" /></a></li>
+   </ul>
+  </div>
+  <div class="s1_top">
+   <a href="#">资讯导读</a>
+  </div>
+  <div class="s2_bot">
+   <dl>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+   </dl>
+  </div>
+ </div>
+ <!--right-->
+</div>
+<!--信息-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="team_main">
+ <ol>
+  <img src="http://cmstop.hd/template/self/images/index1_r42_c12.jpg" />
+ </ol>
+ <ul>
+  <li><a href="#"><img src="http://cmstop.hd/template/self/images/index_r48_c20.jpg"  /></a></li>
+  <li><a href="#"><img src="http://cmstop.hd/template/self/images/index_r48_c24.jpg" /></a></li>
+  <li><a href="#"><img src="http://cmstop.hd/template/self/images/index_r48_c20.jpg"  /></a></li>
+  <li><a href="#"><img src="http://cmstop.hd/template/self/images/index_r48_c24.jpg" /></a></li>
+  <li><a href="#"><img src="http://cmstop.hd/template/self/images/index_r48_c20.jpg"  /></a></li>
+ </ul>
+</div>
+<!--合作单位-->
+<!--链接-->
+<div class="links">
+<b>友情链接：</b> <a href="#">腾讯财经网</a> 新浪财经网 天津贵金属交易所 天津煜展贵金属 凤凰黄金 金融界 东方财富网 腾讯黄金 和讯黄金 新浪财经 南方稀贵金属交易所
+</div>
+<!--链接-->
+<!--版权-->
+<div class="copy_bg">
+ <div class="copyright">
+  <dl>
+   <dt>
+    <img src="http://cmstop.hd/template/self/images/indeh_r50_c8.jpg" />
+   </dt>
+   <dd>
+   <a href="#">人才招聘</a> | <a href="#">隐私申明</a> | <a href="#">常见问题</a> | <a href="#">联系我们</a> | <a href="#">网站地图</a><br />
+Copyright(c)2012-2013 www.0371au.com All Rights Reserved   免费服务热线：0371-55013581 豫ICP备12024871号-1
+   </dd>
+  </dl>
+ </div>
+</div>
+<!--版权-->
+</body>
+</html>

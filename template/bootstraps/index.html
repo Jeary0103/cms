@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{{__ROOT__}}/template/bootstraps/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="{{__ROOT__}}/template/bootstraps/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="{{__ROOT__}}/template/bootstraps/css/index.css" />
+		<script src="{{__ROOT__}}/template/bootstraps/js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{{__ROOT__}}/template/bootstraps/bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+
+		<title></title>
+	</head>
+	<style>
+		.pos_fix{
+			position: fixed;
+			top: 0px;
+			left: 2.5%;
+		}
+		.dd{
+			background: #3E4651;
+		
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$(document).scroll(function(){
+			if($(window).scrollTop()>=54) {
+				$('nav.navbar').addClass('pos_fix');
+				$('div.top div.container-fluid').addClass('dd');
+			} else{
+				$('nav.navbar').removeClass('pos_fix');
+				$('div.top div.container-fluid').removeClass('dd');
+			}
+		})
+			
+		});
+	</script>
+
+	<body>
+		<div class="top">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="left"><a href="#">PRODUCT</a></li>
+							<li class="left"><a href="#">PRICING</a></li>
+							<li class="dropdown left">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RESOURCES <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">
+									<img src="{{__ROOT__}}/template/bootstraps/images/logo-desk.svg" alt="" />
+								</a>
+							</li>
+							<li class="right"><a href="#">HELP</a></li>
+							<li class="right"><a href="#">LOGIN</a></li>
+							<li class="right"><a href="#">FREE TRIAL</a></li>
+
+							<li class="dropdown right">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+
+						</ul>
+
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+			<div class="container">
+				<h1>Turn every interaction <br />into an opportunity.</h1>
+				<h4>Get the fast, awesome customer service app for small business.</h4>
+				<img src="{{__ROOT__}}/template/bootstraps/images/ipad-white@1x.png" alt="" />
+			</div>
+		</div>
+		<div class="container-fluid offer">
+			<div class="row">
+				<div class="col-md-3 col-md-offset-1 col-xs-12 left">
+					<a href="" class="btn btn-info">LIMITED OFFER</a>
+				</div>
+				<div class="col-xs-12 col-md-8 right">
+					Sign up for the Startup Summit at Dreamforce and save $100 with code D15SSDSK
+					<a href="">
+						Register now <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid content-out">
+			<div class="row">
+				<!--<span style="color:white">fffffffffffffffffffffffffffffffffffffffffffffffffffff</span>-->
+				<div class="col-lg-3 col-sm-6 col-xs-12 content-in">
+
+					<li>
+						<span></span><span>Help customers faster.</span>
+					</li>
+					<li>With out-of-the-box support you can manage cases and help customers faster than ever.</li>
+					<li>
+						<a href="" class="btn btn-group">Learn More <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a>
+					</li>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-xs-12 content-in">
+					<li>
+						<span></span> <span>Help customers faster.</span>
+					</li>
+					<li>Bring all your data together and get the insights you need to make faster, smarter decisions.</li>
+					<li>
+						<a href="" class="btn btn-group">Learn More <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a>
+					</li>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-xs-12 content-in">
+					<li>
+						<span></span> <span>Help customers faster.</span>
+					</li>
+					<li>Share your knowledge on a self-service site so your customers can find their own answers.</li>
+					<li>
+						<a href="" class="btn btn-group">Learn More <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a>
+					</li>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-xs-12 content-in">
+					<li>
+						<span></span> <span>Help customers faster.</span>
+					</li>
+					<li>Easily upgrade to Service Cloud when you need more capabilities and customization.</li>
+					<li>
+						<a href="" class="btn btn-group">Learn More <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a>
+					</li>
+				</div>
+			</div>
+
+		</div>
+		<div class="gros_ad container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-xs-12 pic_color">
+					<div class="inner">
+						<p class="title">With Desk.com, it's easy to get everyone on our team interacting with customers.</p>
+						<p class="line"></p>
+						<p class="desc">
+							Jennifer Wentzel
+							<br />Community Support Specialist
+						</p>
+						<a href="" class="btn">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 pic">
+					<img src="{{__ROOT__}}/template/bootstraps/images/photo1.jpg" alt="" />
+					<img src="{{__ROOT__}}/template/bootstraps/images/photo2.jpg" alt="" />
+					<img src="{{__ROOT__}}/template/bootstraps/images/photo3.jpg" alt="" />
+					<img src="{{__ROOT__}}/template/bootstraps/images/photo4.jpg" alt="" />
+					<img src="{{__ROOT__}}/template/bootstraps/images/photo5.jpg" alt="" />
+					<img src="{{__ROOT__}}/template/bootstraps/images/photo6.jpg" alt="" />
+				</div>
+
+			</div>
+			<div class="container-fluid bottom_link">
+				<div class="row">
+					<div class="col-xs-6 col-sm-4 col-md-3"><span></span></div>
+					<div class="col-xs-6 col-sm-4 col-md-3"><span></span></div>
+					<div class="col-xs-6 col-sm-4 col-md-3"><span></span></div>
+					<div class="col-xs-6 col-sm-4 col-md-3"><span></span></div>
+					<div class="col-xs-6 col-sm-4 col-md-3"><span></span></div>
+					<div class="col-xs-6 col-sm-4 col-md-3"><span></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="gros_desc container-fluid">
+			<h2>Awesome doesn't have to be hard. </h2>
+			<p><span>Make your agents more productive, integrate with back-office systems,</span><br />
+				 <span>deliver lightning-fast service, and more. Our customer support experts </span> <br />
+				 <span>can show you how. </span></p>
+		</div>
+		<div class="container-fluid buch">
+			<div class="row">
+				<div class="col-sm-4 col-xs-12 content">
+					<li class="pic"></li>
+					<p class="title">E-book </p>
+					<p class="klein_desc">
+						The Handbook for Small Business Customer Service Managers 
+					</p>
+					<span class="more">
+						Read More<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+					</span>
+				</div>
+				<div class="col-sm-4 col-xs-12 content">
+					<li class="pic"></li>
+					<p class="title">E-book </p>
+					<p class="klein_desc">
+						What Every Small Business CEO Needs to Know About Customer Service 
+					</p>
+					<span class="more">
+						Read More<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+					</span>
+				</div>
+				<div class="col-sm-4 col-xs-12 content">
+					<li class="pic"></li>
+					<p class="title">E-book </p>
+					<p class="klein_desc">
+						The Startup’s Guide to Customer Service 
+					</p>
+					<span class="more">
+						Read More<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bottom_ad">
+			<div class="row">
+				<div class="col-xs-12 pic_color">
+					<p class="title">Start your free trial now. </p>
+					<p class="line"></p>
+					<p class="desc">
+						14 days free. No credit card required. 
+					</p>
+					<a href="" class="btn">TRY DESK.COM FOR FREE</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid unten_link">
+			<div class="col-sm-4">
+				<img src="{{__ROOT__}}/template/bootstraps/images/logo-desk.svg" alt="" />
+				<br />
+				<span class="tele">
+					<a href="">1-877-226-9212 </a>
+				</span><br />
+				<span class="email">
+					<a href="">support@desk.com</a> 
+				</span>
+			</div>
+			<div class="col-sm-2">
+				<p><a href="" class="title">Product</a></p>
+				<p><a href="">Multi-Channel Support</a></p>
+				<p><a href="">Productivity Tools</a></p>
+				<p><a href="">Case Management</a></p>
+				<p><a href="">Self-Service Support</a></p>
+				<p><a href="">Mobile</a></p>
+				<p><a href="">Reporting</a></p>
+				<p><a href="">Salesforce Integration</a></p>
+				<p><a href="">App Hub</a></p>
+			</div>
+			<div class="col-sm-2">
+				<p><a href="" class="title">Product</a></p>
+				<p><a href="">Multi-Channel Support</a></p>
+				<p><a href="">Productivity Tools</a></p>
+				<p><a href="">Case Management</a></p>
+				<p><a href="">Self-Service Support</a></p>
+				<p><a href="">Mobile</a></p>
+				<p><a href="">Reporting</a></p>
+				<p><a href="">Salesforce Integration</a></p>
+				<p><a href="">App Hub</a></p>
+			</div>
+			<div class="col-sm-2">
+				<p><a href="" class="title">Product</a></p>
+				<p><a href="">Multi-Channel Support</a></p>
+				<p><a href="">Productivity Tools</a></p>
+				<p><a href="">Case Management</a></p>
+				<p><a href="">Self-Service Support</a></p>
+				<p><a href="">Mobile</a></p>
+				<p><a href="">Reporting</a></p>
+				<p><a href="">Salesforce Integration</a></p>
+				<p><a href="">App Hub</a></p>
+			</div>
+			<div class="col-sm-2">
+				<p><a href="" class="title">Product</a></p>
+				<p><a href="">Multi-Channel Support</a></p>
+				<p><a href="">Productivity Tools</a></p>
+				<p><a href="">Case Management</a></p>
+				<p><a href="">Self-Service Support</a></p>
+				<p><a href="">Mobile</a></p>
+				<p><a href="">Reporting</a></p>
+				<p><a href="">Salesforce Integration</a></p>
+				<p><a href="">App Hub</a></p>
+			</div>
+			
+		</div>
+		
+		<footer class="container-fluid">
+			<a href="" class="oben"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span></a>
+			<a href="" class="oben"><span class="glyphicon glyphicon-superscript" aria-hidden="true"></span></a>
+			<a href="" class="oben"><span class="glyphicon glyphicon-xbt" aria-hidden="true"></span></a>
+			<a href="" class="oben"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span></a>
+			<p class="desc">
+				©2015 salesforce.com, inc. All Rights reserved. 
+			</p>
+			<a href="" class="unten">Privacy </a>
+			<a href="" class="unten">Terms</a>
+			<a href="" class="unten">Sitemap</a>
+		</footer>
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

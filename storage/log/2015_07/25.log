@@ -1,0 +1,327 @@
+[ 2015-07-25T15:15:50+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE  =?  LIMIT 1 ;BindParams:array (
+  0 => '1',
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='1'  LIMIT 1' at line 1
+[ 2015-07-25T17:44:55+08:00 ]EXCEPTION: Sadmin\Controller\TemplateController 不存在
+[ 2015-07-25T17:44:55+08:00 ]EXCEPTION: Sadmin\Controller\TemplateController 不存在
+[ 2015-07-25T17:45:48+08:00 ]EXCEPTION: Sadmin\Controller\TemplateController 不存在
+[ 2015-07-25T17:45:49+08:00 ]EXCEPTION: Sadmin\Controller\TemplateController 不存在
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: Undefined variable: KeinSehnE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:14:13+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:27:41+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:27:41+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:38:44+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:38:45+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:39:21+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:39:22+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:40:23+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:40:23+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:04+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined variable: dE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 120 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 24 行.
+[ 2015-07-25T18:50:05+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:50:36+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:50:36+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:16+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:20+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:20+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:20+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:20+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:20+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:21+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:21+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:21+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:21+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:52:21+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 98 行.
+[ 2015-07-25T18:56:45+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T18:56:45+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:07:44+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:09:55+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: Undefined variable: valueE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 70 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: Undefined variable: valueE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 70 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:49+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 71 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 71 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 71 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'value'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 22 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'value'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 22 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'value'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 22 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: valueE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 70 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: valueE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 70 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 71 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 71 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 71 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: valueE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Undefined index: titleE:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'value'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 22 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'value'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 22 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'value'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 20 行.
+[ 2015-07-25T23:10:50+08:00 ]NOTICE: Illegal string offset 'html'E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 22 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:12:23+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: Undefined variable: nichtSehnE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:13:19+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\app\Sadmin2\Model\Config.php 第 50 行.
+[ 2015-07-25T23:20:35+08:00 ]EXCEPTION: 模板不存在:app/Sadmin2/View/Article/index.php
+[ 2015-07-25T23:20:35+08:00 ]EXCEPTION: 模板不存在:app/Sadmin2/View/Article/index.php
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:41:12+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:42:22+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:43:23+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:44:50+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:45:13+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.
+[ 2015-07-25T23:47:06+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\9f8f954bf63a6b89762feacfd83d5341.php 第 31 行.

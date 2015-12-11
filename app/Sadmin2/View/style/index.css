@@ -1,0 +1,15 @@
+/* 
+* @Author: anchen
+* @Date:   2015-07-20 15:41:36
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-07-20 16:27:43
+*/
+
+
+#top{width: 100%;background-color: #F9EFAE;line-height: 45px;}
+#top div.right a{margin-left: 10px;}
+#top div.right a:hover{color: #908D8D;}
+#top img{margin-top: -10px;margin-left: 20px;}
+
+
+#main div.left.w80 table{margin-top: 15px;}

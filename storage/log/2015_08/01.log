@@ -1,0 +1,65 @@
+[ 2015-08-01T12:19:55+08:00 ]EXCEPTION: Admin\Controller\RoleController 不存在
+[ 2015-08-01T12:19:55+08:00 ]EXCEPTION: Admin\Controller\RoleController 不存在
+[ 2015-08-01T06:22:01+02:00 ]NOTICE: session_start(): Cannot send session cookie - headers already sent by (output started at E:\wamp\www\self_cms\Hdphp\Kernel\Boot.php:34)E:\wamp\www\self_cms\Hdphp\Session\File.php 第 16 行.
+[ 2015-08-01T06:22:01+02:00 ]NOTICE: session_start(): Cannot send session cache limiter - headers already sent (output started at E:\wamp\www\self_cms\Hdphp\Kernel\Boot.php:34)E:\wamp\www\self_cms\Hdphp\Session\File.php 第 16 行.
+[ 2015-08-01T06:22:01+02:00 ]NOTICE: Cannot modify header information - headers already sent by (output started at E:\wamp\www\self_cms\Hdphp\Kernel\Boot.php:34)E:\wamp\www\self_cms\Hdphp\Kernel\Kernel.php 第 11 行.
+[ 2015-08-01T12:22:01+08:00 ]NOTICE: Undefined index: REQUEST_URIE:\wamp\www\self_cms\Hdphp\Route\Route.php 第 61 行.
+[ 2015-08-01T12:22:01+08:00 ]NOTICE: Undefined index: HTTP_HOSTE:\wamp\www\self_cms\Hdphp\Kernel\Kernel.php 第 60 行.
+[ 2015-08-01T12:22:01+08:00 ]NOTICE: Undefined index: REQUEST_URIE:\wamp\www\self_cms\Hdphp\View\View.php 第 32 行.
+[ 2015-08-01T12:22:01+08:00 ]NOTICE: Undefined index: REQUEST_URIE:\wamp\www\self_cms\Hdphp\View\View.php 第 32 行.
+[ 2015-08-01T12:22:01+08:00 ]NOTICE: Undefined index: REQUEST_URIE:\wamp\www\self_cms\Hdphp\View\View.php 第 32 行.
+[ 2015-08-01T12:24:57+08:00 ]EXCEPTION: 模板不存在:app/Admin/View/Role/index.php
+[ 2015-08-01T12:24:57+08:00 ]EXCEPTION: 模板不存在:app/Admin/View/Role/index.php
+[ 2015-08-01T21:02:35+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\f61c8df6a5f09cbbcc4116969b41ef89.php 第 36 行.
+[ 2015-08-01T21:02:35+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\f61c8df6a5f09cbbcc4116969b41ef89.php 第 36 行.
+[ 2015-08-01T21:02:35+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\f61c8df6a5f09cbbcc4116969b41ef89.php 第 36 行.
+[ 2015-08-01T21:02:35+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\f61c8df6a5f09cbbcc4116969b41ef89.php 第 36 行.
+[ 2015-08-01T21:30:05+08:00 ]EXCEPTION: Method Admin\Controller\RoleController::U("index")() does not exist
+[ 2015-08-01T21:30:25+08:00 ]EXCEPTION: Method Admin\Controller\RoleController::U("index")() does not exist
+[ 2015-08-01T21:30:32+08:00 ]EXCEPTION: Method Admin\Controller\RoleController::U("index")() does not exist
+[ 2015-08-01T21:30:35+08:00 ]EXCEPTION: Method Admin\Controller\RoleController::U("index")() does not exist
+[ 2015-08-01T21:33:40+08:00 ]EXCEPTION: Method Admin\Controller\RoleController::del() does not exist
+[ 2015-08-01T22:02:28+08:00 ]EXCEPTION: 模板不存在:app/Admin/View/Access/index.php
+[ 2015-08-01T22:05:10+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\Hdphp\Db\Mysql.php 第 924 行.
+[ 2015-08-01T23:24:24+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\app\Admin\Model\Access.php 第 32 行.
+[ 2015-08-01T23:24:24+08:00 ]NOTICE: Undefined variable: node_idE:\wamp\www\self_cms\app\Admin\Model\Access.php 第 34 行.
+[ 2015-08-01T23:24:24+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\app\Admin\Model\Access.php 第 35 行.
+[ 2015-08-01T23:24:24+08:00 ]EXCEPTION: INSERT INTO access (`node_id`,`role_id`)VALUES(?,?) ;BindParams:array (
+  0 => NULL,
+  1 => NULL,
+)23000;1048;Column 'node_id' cannot be null
+[ 2015-08-01T23:26:03+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\app\Admin\Controller\AccessController.php 第 23 行.
+[ 2015-08-01T23:28:00+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\app\Admin\Controller\AccessController.php 第 23 行.
+[ 2015-08-01T23:28:18+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 15 行.
+[ 2015-08-01T23:28:18+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 15 行.
+[ 2015-08-01T23:28:44+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 15 行.
+[ 2015-08-01T23:28:50+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 15 行.
+[ 2015-08-01T23:28:50+08:00 ]NOTICE: Undefined index: role_idE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 15 行.
+[ 2015-08-01T23:29:25+08:00 ]NOTICE: Undefined variable: node_idE:\wamp\www\self_cms\app\Admin\Model\Access.php 第 34 行.
+[ 2015-08-01T23:29:25+08:00 ]EXCEPTION: INSERT INTO access (`node_id`,`role_id`)VALUES(?,?) ;BindParams:array (
+  0 => NULL,
+  1 => '1',
+)23000;1048;Column 'node_id' cannot be null
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 20 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 29 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 29 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 29 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 20 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 29 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 29 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 29 行.
+[ 2015-08-01T23:35:47+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null givenE:\wamp\www\self_cms\storage\view\compile\71b2abb019e0af8776d236918af2850d.php 第 38 行.
+[ 2015-08-01T23:42:00+08:00 ]NOTICE: Use of undefined constant ture - assumed 'ture'E:\wamp\www\self_cms\app\Admin\Model\Access.php 第 38 行.
+[ 2015-08-01T23:42:08+08:00 ]NOTICE: Use of undefined constant ture - assumed 'ture'E:\wamp\www\self_cms\app\Admin\Model\Access.php 第 38 行.
+[ 2015-08-01T23:42:31+08:00 ]NOTICE: Use of undefined constant ture - assumed 'ture'E:\wamp\www\self_cms\app\Admin\Model\Access.php 第 38 行.

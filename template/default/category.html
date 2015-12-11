@@ -1,0 +1,19 @@
+<bootstrap/>
+
+<div style="width:200px;float:left;background:#f3f3f3;">
+	<category type="self" id="$_GET['id']">
+		<a href="{{$field['url']}}">{{$field['catname']}}</a><br/>
+	</category>
+</div>
+
+<div style="float:left;width:500px;">
+	<h2>{{$cms['catname']}}</h2>
+
+	<pagelist row="1">
+		<li>
+			<a href="{{$field['url']}}">{{$field['title']}}</a>
+		</li>
+	</pagelist>
+
+	<pageshow row="1"/>
+</div>

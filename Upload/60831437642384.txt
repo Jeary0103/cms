@@ -1,0 +1,739 @@
+ select cname, count(*) as 'ÈËÊý' from stu,class where stu.cid=class.cid group by stu.cid;
+ select cname, count(*) as 'ÈËÊý' from stu,class where stu.cid=class.cid group by class.cid;
+
+
+
+
+Microsoft Windows [°æ±¾ 6.3.9600]
+(c) 2013 Microsoft Corporation¡£±£ÁôËùÓÐÈ¨Àû¡£
+
+C:\Users\jiang_000>mysql -uroot -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1
+Server version: 5.5.24-log MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2011, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| c50                |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+5 rows in set (0.13 sec)
+
+mysql> use c50;
+Database changed
+mysql> select * from c50;
+ERROR 1146 (42S02): Table 'c50.c50' doesn't exist
+mysql> show tables;
++---------------+
+| Tables_in_c50 |
++---------------+
+| stu           |
+| stu_copy      |
++---------------+
+2 rows in set (0.06 sec)
+
+mysql> select * from stu;
++-------+-------------+------+------+
+| stuId | sname       | sage | sex  |
++-------+-------------+------+------+
+|     2 | ÍõÎå        |    2 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   |   30 | ÄÐ   |
+|     5 | ÀîÁù        |   40 | Å®   |
+|     6 | Â½»Ô        |  122 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ |   40 | ÄÐ   |
+|     8 | º«Ã·Ã·      |   30 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   |   30 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   |   30 | ÄÐ   |
+|    13 |             |   30 | ÄÐ   |
+|    14 | Íõ°Ëµ°      |   20 | ÄÐ   |
++-------+-------------+------+------+
+10 rows in set (0.09 sec)
+
+mysql> desc stu;
++-------+------------------------+------+-----+---------+----------------+
+| Field | Type                   | Null | Key | Default | Extra          |
++-------+------------------------+------+-----+---------+----------------+
+| stuId | int(11)                | NO   | PRI | NULL    | auto_increment |
+| sname | char(30)               | YES  |     | NULL    |                |
+| sage  | tinyint(4)             | YES  |     | NULL    |                |
+| sex   | enum('ÄÐ','Å®','±£ÃÜ') | YES  |     | ±£ÃÜ    |                |
++-------+------------------------+------+-----+---------+----------------+
+4 rows in set (0.05 sec)
+
+mysql> alert table stu change sname username varchar(30);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table stu change sname username varchar
+(30)' at line 1
+mysql> alert table stu change sname rename username varchar(30);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table stu change sname rename username
+varchar(30)' at line 1
+mysql> alert table stu rename sname username varchar(30);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table stu rename sname username varchar
+(30)' at line 1
+mysql> alert table stu change sname username;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table stu change sname username' at lin
+e 1
+mysql> alert table stu change sname username varchar(30);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table stu change sname username varchar
+(30)' at line 1
+mysql> alter table sut change sname username varchar(30);
+ERROR 1146 (42S02): Table 'c50.sut' doesn't exist
+mysql> alter table stu change sname username varchar(30);
+Query OK, 10 rows affected (0.22 sec)
+Records: 10  Duplicates: 0  Warnings: 0
+
+mysql> alter table stu modiy username default null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'modiy username default null' at line 1
+mysql> alter table stu modify username default null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default null' at line 1
+mysql> alter table stu modify username null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'null' at line 1
+mysql> alter table stu modify username default=null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default=null' at line 1
+mysql> alter table stu modify username deflaut=null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'deflaut=null' at line 1
+mysql> alter table stu modify username null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'null' at line 1
+mysql> alert table stu rename ueser;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table stu rename ueser' at line 1
+mysql> alter table stu rename user;
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> alert table user add qq char(15);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'alert table user add qq char(15)' at line 1
+mysql> alter table user add qq char(15);
+Query OK, 10 rows affected (0.16 sec)
+Records: 10  Duplicates: 0  Warnings: 0
+
+mysql> alter table user drop qq;
+Query OK, 10 rows affected (0.23 sec)
+Records: 10  Duplicates: 0  Warnings: 0
+
+mysql> alter table stu modify username default;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default' at line 1
+mysql> alter table stu modify username default='';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default=''' at line 1
+mysql> alter table stu modify username deflaut='';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'deflaut=''' at line 1
+mysql> alter table stu modify username default '';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default ''' at line 1
+mysql> alter table user modify username default '';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default ''' at line 1
+mysql> select * from user;
++-------+-------------+------+------+
+| stuId | username    | sage | sex  |
++-------+-------------+------+------+
+|     2 | ÍõÎå        |    2 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   |   30 | ÄÐ   |
+|     5 | ÀîÁù        |   40 | Å®   |
+|     6 | Â½»Ô        |  122 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ |   40 | ÄÐ   |
+|     8 | º«Ã·Ã·      |   30 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   |   30 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   |   30 | ÄÐ   |
+|    13 |             |   30 | ÄÐ   |
+|    14 | Íõ°Ëµ°      |   20 | ÄÐ   |
++-------+-------------+------+------+
+10 rows in set (0.00 sec)
+
+mysql> desc user;
++----------+------------------------+------+-----+---------+----------------+
+| Field    | Type                   | Null | Key | Default | Extra          |
++----------+------------------------+------+-----+---------+----------------+
+| stuId    | int(11)                | NO   | PRI | NULL    | auto_increment |
+| username | varchar(30)            | YES  |     | NULL    |                |
+| sage     | tinyint(4)             | YES  |     | NULL    |                |
+| sex      | enum('ÄÐ','Å®','±£ÃÜ') | YES  |     | ±£ÃÜ    |                |
++----------+------------------------+------+-----+---------+----------------+
+4 rows in set (0.01 sec)
+
+mysql> alter table user modify username varchar(30) '';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near '''' at line 1
+mysql> alter table user modify username varchar(30) default '';
+Query OK, 0 rows affected (0.07 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table user modify username default '';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'default ''' at line 1
+mysql> select * from stu_copy;
++-------+-------+------+------+
+| stuId | sname | sage | sex  |
++-------+-------+------+------+
+|     1 | ÀîËÄ  |   18 | ÄÐ   |
+|     2 | ÍõÎå  |    2 | ±£ÃÜ |
+|     4 | ÕÔÁù  |   30 | ÄÐ   |
+|     5 | ÀîÁù  |   40 | Å®   |
++-------+-------+------+------+
+4 rows in set (0.06 sec)
+
+mysql> drop table stu_copy;
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> create table sty_copy select * from stu;
+ERROR 1146 (42S02): Table 'c50.stu' doesn't exist
+mysql> create table stu_copy select * from stu;
+ERROR 1146 (42S02): Table 'c50.stu' doesn't exist
+mysql> use c50;
+Database changed
+mysql> show tables;
++---------------+
+| Tables_in_c50 |
++---------------+
+| user          |
++---------------+
+1 row in set (0.00 sec)
+
+mysql> create table stu_copy select * from user;
+Query OK, 10 rows affected (0.11 sec)
+Records: 10  Duplicates: 0  Warnings: 0
+
+mysql> desc user;
++----------+------------------------+------+-----+---------+----------------+
+| Field    | Type                   | Null | Key | Default | Extra          |
++----------+------------------------+------+-----+---------+----------------+
+| stuId    | int(11)                | NO   | PRI | NULL    | auto_increment |
+| username | varchar(30)            | YES  |     |         |                |
+| sage     | tinyint(4)             | YES  |     | NULL    |                |
+| sex      | enum('ÄÐ','Å®','±£ÃÜ') | YES  |     | ±£ÃÜ    |                |
++----------+------------------------+------+-----+---------+----------------+
+4 rows in set (0.01 sec)
+
+mysql> alter table user modify sage date;
+Query OK, 10 rows affected, 10 warnings (0.17 sec)
+Records: 10  Duplicates: 0  Warnings: 10
+
+mysql> select * from user;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 0000-00-00 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|     5 | ÀîÁù        | 0000-00-00 | Å®   |
+|     6 | Â½»Ô        | 0000-00-00 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 0000-00-00 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 0000-00-00 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|    13 |             | 0000-00-00 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 0000-00-00 | ÄÐ   |
++-------+-------------+------------+------+
+10 rows in set (0.00 sec)
+
+mysql> update user set sage='1990-4-5' where sname like "%Íõ%";
+ERROR 1054 (42S22): Unknown column 'sname' in 'where clause'
+mysql> update user set sage='1990-4-5' where username like "%Íõ%";
+Query OK, 2 rows affected (0.09 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+mysql> update user set sage='1988-7-28' where sex=2 and username like "%ºó¶Ü%";
+Query OK, 0 rows affected (0.04 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> select * from user;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1990-04-05 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|     5 | ÀîÁù        | 0000-00-00 | Å®   |
+|     6 | Â½»Ô        | 0000-00-00 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 0000-00-00 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 0000-00-00 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|    13 |             | 0000-00-00 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1990-04-05 | ÄÐ   |
++-------+-------------+------------+------+
+10 rows in set (0.00 sec)
+
+mysql> update user set sage='1988-5-8' where sex=1 and username like "%ºó¶Ü%";
+Query OK, 4 rows affected (0.07 sec)
+Rows matched: 4  Changed: 4  Warnings: 0
+
+mysql> select * from user;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1990-04-05 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 1988-05-08 | ÄÐ   |
+|     5 | ÀîÁù        | 0000-00-00 | Å®   |
+|     6 | Â½»Ô        | 0000-00-00 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1988-05-08 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 0000-00-00 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1988-05-08 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 1988-05-08 | ÄÐ   |
+|    13 |             | 0000-00-00 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1990-04-05 | ÄÐ   |
++-------+-------------+------------+------+
+10 rows in set (0.00 sec)
+
+mysql> delete from user where username='';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> update user set sage='1980-4-20' where sex=1;
+Query OK, 5 rows affected (0.07 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+mysql> update user set sage='1976-15-40' where stuId
+    -> %2=0;
+Query OK, 4 rows affected, 6 warnings (0.08 sec)
+Rows matched: 6  Changed: 4  Warnings: 6
+
+mysql> select * from user;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 0000-00-00 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|     5 | ÀîÁù        | 0000-00-00 | Å®   |
+|     6 | Â½»Ô        | 0000-00-00 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 0000-00-00 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 0000-00-00 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 0000-00-00 | ÄÐ   |
++-------+-------------+------------+------+
+9 rows in set (0.00 sec)
+
+mysql> select username from user where sex=2 order by sage asc limit 1;
++----------+
+| username |
++----------+
+| ÀîÁù     |
++----------+
+1 row in set (0.00 sec)
+
+mysql> select sex from user where sage<1990 order by sage asc limit 1;
++------+
+| sex  |
++------+
+| ±£ÃÜ |
++------+
+1 row in set, 1 warning (0.00 sec)
+
+mysql> select * from user where sage<1990 order by sage asc limit 1;
++-------+----------+------------+------+
+| stuId | username | sage       | sex  |
++-------+----------+------------+------+
+|     2 | ÍõÎå     | 0000-00-00 | ±£ÃÜ |
++-------+----------+------------+------+
+1 row in set, 1 warning (0.00 sec)
+
+mysql> select * from user where sage>1990 order by sage asc limit 1;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
++-------+-------------+------------+------+
+1 row in set, 1 warning (0.00 sec)
+
+mysql> update user set sage='1992-3-4' where sage=0;
+Query OK, 7 rows affected (0.05 sec)
+Rows matched: 7  Changed: 7  Warnings: 0
+
+mysql> select * from user;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|     5 | ÀîÁù        | 1992-03-04 | Å®   |
+|     6 | Â½»Ô        | 1992-03-04 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1992-03-04 | ÄÐ   |
++-------+-------------+------------+------+
+9 rows in set (0.00 sec)
+
+mysql> select count(*) from user group by mid(sage,3,1);
++----------+
+| count(*) |
++----------+
+|        2 |
+|        7 |
++----------+
+2 rows in set (0.07 sec)
+
+mysql> select count(*) where sex=1 group by left(username,1);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'where sex=1 group by left(username,1)' at lin
+e 1
+mysql> select count(*) from user where sex=1 group by left(username,1);
++----------+
+| count(*) |
++----------+
+|        1 |
+|        1 |
+|        1 |
+|        1 |
+|        1 |
++----------+
+5 rows in set (0.00 sec)
+
+mysql> select left(username,1) count(*) from user where sex=1 group by left(username,1);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'count(*) from user where sex=1 group by left(
+username,1)' at line 1
+mysql> select left(username,1),count(*) from user where sex=1 group by left(username,1);
++------------------+----------+
+| left(username,1) | count(*) |
++------------------+----------+
+| ÇÎ               |        1 |
+| Íõ               |        1 |
+| ÕÔ               |        1 |
+| À×               |        1 |
+| º«               |        1 |
++------------------+----------+
+5 rows in set (0.00 sec)
+
+mysql> select * from user;
++-------+-------------+------------+------+
+| stuId | username    | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|     5 | ÀîÁù        | 1992-03-04 | Å®   |
+|     6 | Â½»Ô        | 1992-03-04 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1992-03-04 | ÄÐ   |
++-------+-------------+------------+------+
+9 rows in set (0.00 sec)
+
+mysql> alter table user rename stu;
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> alter table stu change username sname varchar(30);
+Query OK, 9 rows affected (0.18 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> select * from stu;
++-------+-------------+------------+------+
+| stuId | sname       | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|     5 | ÀîÁù        | 1992-03-04 | Å®   |
+|     6 | Â½»Ô        | 1992-03-04 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1992-03-04 | ÄÐ   |
++-------+-------------+------------+------+
+9 rows in set (0.00 sec)
+
+mysql> drop tables stu_copy;
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> create table stu_copy select * from stu;
+Query OK, 9 rows affected (0.12 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> update stu set sage='1968-9-28' where sname like 'Íõ%' and sex=;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near '' at line 1
+mysql> update stu set sage='1968-9-28' where sname like 'Íõ%' and sex=1;
+Query OK, 1 row affected (0.07 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set sage='1978-10-12' where sname like '%ÕÔ%';
+Query OK, 1 row affected (0.10 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from stu;
++-------+-------------+------------+------+
+| stuId | sname       | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 1978-10-12 | ÄÐ   |
+|     5 | ÀîÁù        | 1992-03-04 | Å®   |
+|     6 | Â½»Ô        | 1992-03-04 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1968-09-28 | ÄÐ   |
++-------+-------------+------------+------+
+9 rows in set (0.00 sec)
+
+mysql> update stu set sage='1979-11-12' where sname like '%Â½%';
+Query OK, 1 row affected (0.07 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set sage='1989-1-22' where sname like '%Àî%';
+Query OK, 1 row affected (0.07 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from stu;
++-------+-------------+------------+------+
+| stuId | sname       | sage       | sex  |
++-------+-------------+------------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |
+|     4 | ÕÔÁùºó¶Ü_   | 1978-10-12 | ÄÐ   |
+|     5 | ÀîÁù        | 1989-01-22 | Å®   |
+|     6 | Â½»Ô        | 1979-11-12 | Å®   |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |
+|    14 | Íõ°Ëµ°      | 1968-09-28 | ÄÐ   |
++-------+-------------+------------+------+
+9 rows in set (0.00 sec)
+
+mysql> create table class(cid smallint primary key auto_crement,cname char(30)) charset utf8;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'auto_crement,cname char(30)) charset utf8' at
+ line 1
+mysql> create table class(cid smallint primary key auto_crement,cname char(30))charset utf8;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'auto_crement,cname char(30))charset utf8' at
+line 1
+mysql> alter table stu add cid smallint;
+Query OK, 9 rows affected (0.17 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> select * from stu;
++-------+-------------+------------+------+------+
+| stuId | sname       | sage       | sex  | cid  |
++-------+-------------+------------+------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ | NULL |
+|     4 | ÕÔÁùºó¶Ü_   | 1978-10-12 | ÄÐ   | NULL |
+|     5 | ÀîÁù        | 1989-01-22 | Å®   | NULL |
+|     6 | Â½»Ô        | 1979-11-12 | Å®   | NULL |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   | NULL |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   | NULL |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   | NULL |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   | NULL |
+|    14 | Íõ°Ëµ°      | 1968-09-28 | ÄÐ   | NULL |
++-------+-------------+------------+------+------+
+9 rows in set (0.00 sec)
+
+mysql> create table class(cid smallint primary key auto_crement,cname char(30))charset utf8\c
+mysql> alter table stu drop cid;
+Query OK, 9 rows affected (0.17 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> alter table stu add cid smallint default 1;
+Query OK, 9 rows affected (0.20 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> select * from stu;
++-------+-------------+------------+------+------+
+| stuId | sname       | sage       | sex  | cid  |
++-------+-------------+------------+------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |    1 |
+|     4 | ÕÔÁùºó¶Ü_   | 1978-10-12 | ÄÐ   |    1 |
+|     5 | ÀîÁù        | 1989-01-22 | Å®   |    1 |
+|     6 | Â½»Ô        | 1979-11-12 | Å®   |    1 |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |    1 |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |    1 |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |    1 |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |    1 |
+|    14 | Íõ°Ëµ°      | 1968-09-28 | ÄÐ   |    1 |
++-------+-------------+------------+------+------+
+9 rows in set (0.00 sec)
+
+mysql> create table class(cid smallint primary key auto_crement,cname char(30))charset utf8;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your
+MySQL server version for the right syntax to use near 'auto_crement,cname char(30))charset utf8' at
+line 1
+mysql> create table class(cid smallint primary key auto_increment,cname char(30))charset utf8;
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> insert into class set cname=php;
+ERROR 1054 (42S22): Unknown column 'php' in 'field list'
+mysql> insert into class set cname='php';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> insert into class set cname='mysql';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> insert into class set cname='web';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> insert into class set cname='jquery';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> insert into class set cname='javascript';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> select * from classl
+    -> \c;
+ERROR:
+No query specified
+
+mysql> select * from class;
++-----+------------+
+| cid | cname      |
++-----+------------+
+|   1 | php        |
+|   2 | mysql      |
+|   3 | web        |
+|   4 | jquery     |
+|   5 | javascript |
++-----+------------+
+5 rows in set (0.00 sec)
+
+mysql> update stu set cid=1 where stuId=1;
+Query OK, 0 rows affected (0.05 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> update stu set cid=1 where stuId=2;
+Query OK, 0 rows affected (0.07 sec)
+Rows matched: 1  Changed: 0  Warnings: 0
+
+mysql> update stu set cid=3 where stuId=4;
+Query OK, 1 row affected (0.05 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set cid=2 where stuId=3;
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> update stu set cid=5 where stuId=5;
+Query OK, 1 row affected (0.08 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set cid=2 where stuId=6;
+Query OK, 1 row affected (0.07 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set cid=4 where stuId=7;
+Query OK, 1 row affected (0.07 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set cid=3 where stuId=8;
+Query OK, 1 row affected (0.04 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set cid=2 where stuId=9;
+Query OK, 1 row affected (0.09 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update stu set cid=5 where stuId=10;
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> update stu set cid=1 where stuId=11;
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> select * from stu;
++-------+-------------+------------+------+------+
+| stuId | sname       | sage       | sex  | cid  |
++-------+-------------+------------+------+------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |    1 |
+|     4 | ÕÔÁùºó¶Ü_   | 1978-10-12 | ÄÐ   |    3 |
+|     5 | ÀîÁù        | 1989-01-22 | Å®   |    5 |
+|     6 | Â½»Ô        | 1979-11-12 | Å®   |    2 |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |    4 |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |    3 |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |    2 |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |    1 |
+|    14 | Íõ°Ëµ°      | 1968-09-28 | ÄÐ   |    1 |
++-------+-------------+------------+------+------+
+9 rows in set (0.00 sec)
+
+mysql> drop table stu_copy;
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> create table stu_copy select * from stu;
+Query OK, 9 rows affected (0.12 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> create table class_copy select * from class;
+Query OK, 5 rows affected (0.13 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> select * from stu,class where stu.cid=class.cid;
++-------+-------------+------------+------+------+-----+------------+
+| stuId | sname       | sage       | sex  | cid  | cid | cname      |
++-------+-------------+------------+------+------+-----+------------+
+|     2 | ÍõÎå        | 1992-03-04 | ±£ÃÜ |    1 |   1 | php        |
+|    12 | À×Óêºó¶Ü_   | 1992-03-04 | ÄÐ   |    1 |   1 | php        |
+|    14 | Íõ°Ëµ°      | 1968-09-28 | ÄÐ   |    1 |   1 | php        |
+|     6 | Â½»Ô        | 1979-11-12 | Å®   |    2 |   2 | mysql      |
+|     9 | º«ÌÎºó¶Ü_   | 1980-04-20 | ÄÐ   |    2 |   2 | mysql      |
+|     4 | ÕÔÁùºó¶Ü_   | 1978-10-12 | ÄÐ   |    3 |   3 | web        |
+|     8 | º«Ã·Ã·      | 1992-03-04 | Å®   |    3 |   3 | web        |
+|     7 | ÇÎ½­ÄÏºó¶Ü_ | 1980-04-20 | ÄÐ   |    4 |   4 | jquery     |
+|     5 | ÀîÁù        | 1989-01-22 | Å®   |    5 |   5 | javascript |
++-------+-------------+------------+------+------+-----+------------+
+9 rows in set (0.00 sec)
+
+mysql> select cname, count(*) as 'ÈËÊý' from stu,class where stu.cid=class.cid order by class.cid;
++-------+------+
+| cname | ÈËÊý |
++-------+------+
+| php   |    9 |
++-------+------+
+1 row in set (0.04 sec)
+
+mysql> select cname, count(*) as 'ÈËÊý' from stu,class where stu.cid=class.cid group by class.cid;
++------------+------+
+| cname      | ÈËÊý |
++------------+------+
+| php        |    3 |
+| mysql      |    2 |
+| web        |    2 |
+| jquery     |    1 |
+| javascript |    1 |
++------------+------+
+5 rows in set (0.00 sec)
+
+mysql> select cname, count(*) as 'ÈËÊý' from stu,class where stu.cid=class.cid group by cid;
+ERROR 1052 (23000): Column 'cid' in group statement is ambiguous
+mysql> select cname, count(*) as 'ÈËÊý' from stu,class where stu.cid=class.cid group by stu.cid;
++------------+------+
+| cname      | ÈËÊý |
++------------+------+
+| php        |    3 |
+| mysql      |    2 |
+| web        |    2 |
+| jquery     |    1 |
+| javascript |    1 |
++------------+------+
+5 rows in set (0.00 sec)
+
+mysql> Ctrl-C -- exit!
+Bye
+
+C:\Users\jiang_000>

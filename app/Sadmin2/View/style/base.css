@@ -1,0 +1,22 @@
+a{color: #D0CFD0;text-decoration: none;}
+a:hover{color: #908D8D;}
+.center{text-align: center;}
+.border{border:1px solid black;}
+.left{float: left;}
+.right{float: right;}
+.middle{margin: 0 auto;}
+
+
+.p20{width: 20%;}
+.p50{width: 50%;}
+.p30{width: 30%;}
+.p80{width: 80%;}
+.p100{width: 100%;}
+
+
+
+.w300{width: 150px;}
+
+.h35{height: 35px;}
+.h45{height: 45px;}
+.h1000{height: 1000px;}

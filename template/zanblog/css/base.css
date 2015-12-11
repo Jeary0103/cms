@@ -1,0 +1,14 @@
+/* 
+* @Author: anchen
+* @Date:   2015-08-08 16:48:21
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-08-08 17:41:58
+*/
+*{margin: 0px;padding: 0px;}
+body{
+	font-family: "Microsoft Yahei",Helvetica,Arial,sans-serif;
+	background: url(../images/bg.jpg);
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul,li{list-style-type: none;}

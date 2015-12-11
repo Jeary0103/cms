@@ -1,0 +1,67 @@
+{{include file='__TEMPLATE__/header.php'}}
+
+
+<!--信息-->
+<!--信息-->
+<div class="main_pest">
+ <!--left-->
+ <div class="main_pest_left">
+  <div class="main_pest_left_top">
+   <p>贵金属投资 </p>
+  </div>
+  <div class="main_pest_left_bot">
+   <ul>
+    <li><a href="#" id="li_bg">投资特点 + </a></li>
+    <li><a href="#">交易细则 + </a></li>
+    <li><a href="#">盈亏计算 + </a></li>
+    <li><a href="#">权益保障 + </a></li>
+   </ul>
+  </div>
+  <!--lainxi-->
+  <div class="pset_con_bg">
+   <dl>
+    <dt>
+     <img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/list_r7_c3.jpg" />
+    </dt>
+    <dd>
+     <a href="#"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/list_r9_c2.jpg" /></a>
+     <a href="#"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/list_r10_c2.jpg" /></a>
+    </dd>
+    <dd>
+    电话：0371-86592917<br />
+地址：河南省郑州市民航路15号企业一号大厦
+    </dd>
+   </dl>
+  </div>
+  <!--lainxi-->
+  <div class="pset_con_ad">
+   <a href="#"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/list_r12_c1.jpg" /></a>
+  </div>
+ </div>
+ <!--left-->
+ <!--right-->
+ <div class="main_pest_right">
+  <div class="main_pest_right_top">
+   <img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/list_r4_c7.jpg" /> 当前位置:<a href="/">首页</a> > <a href="#">{{$cms['catname']}}</a>
+  </div>
+  <div class="main_pest_news">
+   <ul>
+    
+      {{pagelist}}
+        <li><span>{{date('m-d',$field['addtime'])}}</span><a href="{{$field['url']}}">{{$field['title']}}</a></li>
+      {{endpagelist}}
+    </ul>
+    
+  </div>
+  <ul class="pagination">
+   
+      {{$page}}
+    </ul>
+ </div>
+ <!--right-->
+</div>
+<!--信息-->
+<!--信息-->
+<!--合作单位-->
+
+{{include file='__TEMPLATE__/footer.php'}}

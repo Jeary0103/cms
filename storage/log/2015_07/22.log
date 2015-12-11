@@ -1,0 +1,813 @@
+[ 2015-07-22T00:28:15+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 18 行.
+[ 2015-07-22T00:28:16+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\f1c47ad01f3cf09d3a4d2f131f9625b9.php 第 18 行.
+[ 2015-07-22T11:11:12+08:00 ]EXCEPTION: show columns from `article` ;BindParams:array (
+)42S02;1146;Table 'cmstop.article' doesn't exist
+[ 2015-07-22T11:11:12+08:00 ]EXCEPTION: show columns from `article` ;BindParams:array (
+)42S02;1146;Table 'cmstop.article' doesn't exist
+[ 2015-07-22T11:24:32+08:00 ]EXCEPTION: SELECT  a.title,a.id,c.catname,a.addtime  FROM article a INNER JOIN category c ON a.cid = c.id ;BindParams:array (
+)42S22;1054;Unknown column 'a.cid' in 'on clause'
+[ 2015-07-22T11:24:33+08:00 ]EXCEPTION: SELECT  a.title,a.id,c.catname,a.addtime  FROM article a INNER JOIN category c ON a.cid = c.id ;BindParams:array (
+)42S22;1054;Unknown column 'a.cid' in 'on clause'
+[ 2015-07-22T11:26:54+08:00 ]EXCEPTION: SELECT  a.title,a.id,c.catname,a.addtime  FROM article a INNER JOIN category c ON a.cid = c.id ;BindParams:array (
+)42S22;1054;Unknown column 'a.cid' in 'on clause'
+[ 2015-07-22T11:26:54+08:00 ]EXCEPTION: SELECT  a.title,a.id,c.catname,a.addtime  FROM article a INNER JOIN category c ON a.cid = c.id ;BindParams:array (
+)42S22;1054;Unknown column 'a.cid' in 'on clause'
+[ 2015-07-22T11:28:49+08:00 ]EXCEPTION: SELECT  a.title,a.id,c.catname,a.addtime  FROM article a INNER JOIN category c ON a.cid = c.id ;BindParams:array (
+)42S22;1054;Unknown column 'a.id' in 'field list'
+[ 2015-07-22T11:28:50+08:00 ]EXCEPTION: SELECT  a.title,a.id,c.catname,a.addtime  FROM article a INNER JOIN category c ON a.cid = c.id ;BindParams:array (
+)42S22;1054;Unknown column 'a.id' in 'field list'
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 37 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 48 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 49 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 37 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 48 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 49 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 37 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 48 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 49 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 37 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 48 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 49 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 37 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 48 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 49 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 37 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 48 行.
+[ 2015-07-22T11:32:17+08:00 ]NOTICE: Undefined index: idE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 49 行.
+[ 2015-07-22T11:38:17+08:00 ]EXCEPTION: Method Admin\Controller\ArticleController::edit() does not exist
+[ 2015-07-22T11:38:18+08:00 ]EXCEPTION: Method Admin\Controller\ArticleController::edit() does not exist
+[ 2015-07-22T17:46:02+08:00 ]NOTICE: Undefined variable: php_pathE:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 52 行.
+[ 2015-07-22T17:58:50+08:00 ]NOTICE: Undefined variable: _infoE:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 53 行.
+[ 2015-07-22T18:00:52+08:00 ]NOTICE: Use of undefined constant __info - assumed '__info'E:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 53 行.
+[ 2015-07-22T18:00:52+08:00 ]NOTICE: pathinfo() expects parameter 1 to be string, array givenE:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 54 行.
+[ 2015-07-22T18:20:29+08:00 ]NOTICE: Undefined variable: _infoE:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 54 行.
+[ 2015-07-22T19:57:50+08:00 ]NOTICE: Undefined offset: 0E:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 44 行.
+[ 2015-07-22T19:57:50+08:00 ]NOTICE: Undefined offset: 0E:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 45 行.
+[ 2015-07-22T19:58:26+08:00 ]NOTICE: Undefined offset: 0E:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 44 行.
+[ 2015-07-22T19:58:26+08:00 ]NOTICE: Undefined offset: 0E:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 45 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:16+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:17+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:17+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:17+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:17+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:17+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T19:59:17+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:03:44+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:35+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:35+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:35+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:35+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:04:36+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:54+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:05:55+08:00 ]NOTICE: Undefined index: pidE:\wamp\www\self_cms\Hdphp\Data\Data.php 第 75 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:06:59+08:00 ]NOTICE: Undefined index: _nameE:\wamp\www\self_cms\storage\view\compile\bf34f4cf597083c7a67add56ceaafc1e.php 第 42 行.
+[ 2015-07-22T20:13:29+08:00 ]EXCEPTION: Method Admin\Controller\ArticleController::del() does not exist
+[ 2015-07-22T20:36:36+08:00 ]NOTICE: Undefined variable: arrE:\wamp\www\self_cms\app\Admin\Model\Article.php 第 84 行.
+[ 2015-07-22T20:36:36+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\app\Admin\Model\Article.php 第 84 行.
+[ 2015-07-22T20:36:36+08:00 ]NOTICE: Undefined variable: arrE:\wamp\www\self_cms\app\Admin\Model\Article.php 第 84 行.
+[ 2015-07-22T20:36:36+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\app\Admin\Model\Article.php 第 84 行.
+[ 2015-07-22T20:37:50+08:00 ]EXCEPTION: 14 ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '14' at line 1
+[ 2015-07-22T20:37:50+08:00 ]EXCEPTION: 14 ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '14' at line 1
+[ 2015-07-22T20:38:08+08:00 ]EXCEPTION: 12 ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '12' at line 1
+[ 2015-07-22T20:38:08+08:00 ]EXCEPTION: 12 ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '12' at line 1
+[ 2015-07-22T20:40:27+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:40:27+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:40:32+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:40:32+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:40:32+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:40:32+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:41:18+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:41:18+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:43:29+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:43:29+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:45:22+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:45:22+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:47:01+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:47:01+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:49:19+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:49:19+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:49:24+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:49:24+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:49:24+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:49:24+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:51:08+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:51:08+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:51:08+08:00 ]NOTICE: Undefined variable: catE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:51:08+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:53:29+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:53:41+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:53:41+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T20:53:54+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 24 行.
+[ 2015-07-22T21:13:03+08:00 ]NOTICE: Undefined index: timeE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 125 行.
+[ 2015-07-22T21:14:30+08:00 ]NOTICE: Undefined index: timeE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 125 行.
+[ 2015-07-22T21:15:54+08:00 ]NOTICE: Undefined index: timeE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 125 行.
+[ 2015-07-22T21:18:23+08:00 ]NOTICE: Undefined index: timeE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 125 行.
+[ 2015-07-22T21:28:43+08:00 ]NOTICE: preg_replace(): Delimiter must not be alphanumeric or backslashE:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php 第 81 行.
+[ 2015-07-22T21:59:59+08:00 ]NOTICE: Undefined variable: arrE:\wamp\www\self_cms\app\Admin\Model\Article.php 第 85 行.
+[ 2015-07-22T21:59:59+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\app\Admin\Model\Article.php 第 85 行.
+[ 2015-07-22T22:00:58+08:00 ]NOTICE: Undefined variable: arrE:\wamp\www\self_cms\app\Admin\Model\Article.php 第 85 行.
+[ 2015-07-22T22:00:58+08:00 ]NOTICE: Invalid argument supplied for foreach()E:\wamp\www\self_cms\app\Admin\Model\Article.php 第 85 行.
+[ 2015-07-22T22:01:57+08:00 ]NOTICE: Argument 1 passed to Hdphp\Db\Mysql::get() must be of the type array, string givenE:\wamp\www\self_cms\Hdphp\Db\Mysql.php 第 888 行.
+[ 2015-07-22T22:01:57+08:00 ]NOTICE: implode(): Invalid arguments passedE:\wamp\www\self_cms\Hdphp\Db\Mysql.php 第 893 行.
+[ 2015-07-22T22:01:57+08:00 ]NOTICE: Array to string conversionE:\wamp\www\self_cms\Hdphp\Db\Mysql.php 第 195 行.
+[ 2015-07-22T22:01:57+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => 
+  array (
+    'id' => '1',
+    'title' => 'sdffsdsdf',
+    'content' => 'sdfddf',
+    'addtime' => '1437494400',
+    'click' => '100',
+    'thumb' => 'Upload//63231437533186.jpg',
+    'cid' => '2',
+  ),
+  0 => 0,
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:02:10+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE 11 AND  name=?  ;BindParams:array (
+  'value' => 'article',
+  0 => 'table',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:05:15+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '11',
+  0 => 'id',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:07:05+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:07:27+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:07:42+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:08:55+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:12:02+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:14:39+08:00 ]NOTICE: Argument 1 passed to Admin\Model\Article::update() must be of the type array, null given, called in E:\wamp\www\self_cms\app\Admin\Controller\ArticleController.php on line 73 and definedE:\wamp\www\self_cms\app\Admin\Model\Article.php 第 83 行.
+[ 2015-07-22T22:16:59+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  name=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'name' in 'where clause'
+[ 2015-07-22T22:18:03+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  cid=?  ;BindParams:array (
+  'value' => '2',
+  0 => 'cid',
+)42S22;1054;Unknown column 'value' in 'field list'
+[ 2015-07-22T22:21:44+08:00 ]NOTICE: Undefined variable: fieldE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 12 行.
+[ 2015-07-22T22:21:44+08:00 ]NOTICE: Undefined variable: fieldE:\wamp\www\self_cms\storage\view\compile\7d4560792afface0b37700391d2ad565.php 第 12 行.
+[ 2015-07-22T22:24:23+08:00 ]EXCEPTION: UPDATE article SET `value`=?  WHERE  id=?  ;BindParams:array (
+  'value' => '2',
+  0 => '11',
+)42S22;1054;Unknown column 'value' in 'field list'
+[ 2015-07-22T22:33:58+08:00 ]EXCEPTION: update article set ?= ? where id=11 ;BindParams:array (
+  0 => 'cid',
+  1 => '2',
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''cid'= '2' where id=11' at line 1
+[ 2015-07-22T22:34:59+08:00 ]EXCEPTION: update article set title= 发生地方的方法 where id=11 ;BindParams:array (
+)42S22;1054;Unknown column '发生地方的方法' in 'field list'
+[ 2015-07-22T22:35:20+08:00 ]EXCEPTION: update article set file= '' where id=11 ;BindParams:array (
+)42S22;1054;Unknown column 'file' in 'field list'
+[ 2015-07-22T22:36:19+08:00 ]EXCEPTION: update article set file= '' where id=11 ;BindParams:array (
+)42S22;1054;Unknown column 'file' in 'field list'
+[ 2015-07-22T22:36:25+08:00 ]EXCEPTION: update article set file= '' where id=11 ;BindParams:array (
+)42S22;1054;Unknown column 'file' in 'field list'
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:42:49+08:00 ]NOTICE: Undefined index: htmlE:\wamp\www\self_cms\storage\view\compile\d276c96e76093cf6c0014f069a75a9a2.php 第 26 行.
+[ 2015-07-22T23:44:24+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 102 行.
+[ 2015-07-22T23:44:25+08:00 ]NOTICE: Illegal string offset 'title'E:\wamp\www\self_cms\app\Sadmin\Model\Config.php 第 102 行.

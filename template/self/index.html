@@ -1,0 +1,328 @@
+
+{{include file='__TEMPLATE__/header.php'}}
+
+<div class="x_mu_ad">
+ <ul>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c1.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c13.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c14.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c19.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c22.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c23.jpg"  /></a></li>
+  <li><a href="#" target="_blank"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r5_c27.jpg"  /></a></li>
+ </ul>
+</div>
+
+
+<div class="notice">
+ <ol><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r8_c4.jpg" /></ol>
+ <ul>
+    {{notice limit='3'}}
+          <li><a href="{{$field['url']}}">{{$field['title']}}[{{date('m-d',$field['addtime'])}}]</a></li>
+    {{endnotice}}
+
+ </ul>
+</div>
+<div class="main_inf">
+ <!--left-->
+ <div class="main_inf_left">
+  <div class="r1_top"> 
+   {{kleinstuck rows='3' catname='每日点评' name='jinri'}}
+
+    <?php if($key == 0){ ?>
+       <p><a href="{{$first['url']}}">每日点评</a></p>
+        <span><a href="{{$first['url']}}">更多>> </a></span>
+  </div>
+  <div class="r1_bot">
+ 
+        <ol>
+                <a href="{{$jinri['url']}}" id="red">{{$jinri['title']}}</a><br />
+                {{$jinri['content']}}
+        </ol>
+        <ul>
+    <?php } else {?>
+             <li>[{{date('m-y',$jinri['addtime'])}}] <a href="{{$jinri['url']}}">{{$jinri['title']}}</a> </li>
+    <?php } ?>
+  {{endkleinstuck}}
+   </ul>
+  
+  </div>
+
+{{kleinstuck rows='6' catname='盘面播报' name='panmian'}}
+<?php if($key == 0){ ?>
+     <div class="r1_top" style="margin-top:10px;">
+       <p><a href="{{$first['url']}}">盘面播报</a></p>
+       <span><a href="{{$first['url']}}">更多>> </a></span>
+      </div>
+      <div class="r2_bot">
+       <ol>
+       <img src="{{$panmian['thumb']}}" /> <a href="{{$panmian['url']}}" >{{$panmian['title']}}</a><br />
+      {{$panmian['content']}}
+       </ol><dl>
+<?php } else {?>
+    
+     <dd>
+        <a href="{{$panmian['url']}}">
+            <?php echo mb_substr($panmian['title'],0,20,'utf-8'); ?>
+        </a>
+    </dd>
+    <?php } ?>
+{{endkleinstuck}}
+   </dl>
+  </div>
+ </div>
+ <!--left-->
+ <!--mid-->
+{{kleinstuck rows='10' catname='分析研究' name='fenxi'}}
+{{if value="$key==0" }}
+    <div class="main_inf_mid">
+    <div class="main_inf_mid_top" >
+        <p><a href="{{$first['url']}}">分析研究</a></p>
+        <span><a href="{{$first['url']}}">更多>> </a></span>
+    </div>
+     <ol>
+        <img src="{{$fenxi['thumb']}}" /> <a href="{{$fenxi['url']}}" id="red" >{{$fenxi['title']}}</a><br />
+        <?php echo mb_substr($fenxi['content'],0,80,'utf-8'); ?>
+    </ol>
+{{elseif value="$key==1" }}
+    <ol>
+       <img src="{{$fenxi['thumb']}}" /> <a href="{{$fenxi['url']}}" id="red" >{{$fenxi['title']}}</a><br />
+       <?php echo mb_substr($fenxi['content'],0,30,'utf-8'); ?>
+   </ol>
+{{elseif value="$key==2"}}
+    <div class="div_li">
+    <dl>
+    <dd><a href="{{$fenxi['url']}}">{{$fenxi['title']}} </a></dd>
+{{else}}
+    <dd><a href="{{$fenxi['url']}}">{{$fenxi['title']}}</a></dd>
+{{endif}}
+{{endkleinstuck}}
+</dl>
+   </div>
+ </div>
+ <!--mid-->
+ <!--right-->
+<div class="main_inf_right">
+{{kleinstuck catname='黄金交易价值' rows='1' name='jinsu'}}
+        <div class="s1_top">
+        <a href="{{$first['url']}}">贵金属交易价格</a>
+        </div>
+    <div class="s1_bot">
+        
+       <img src="{{$jinsu['thumb']}}" />
+    </div>
+{{endkleinstuck}}
+{{kleinstuck rows='5' catname="资讯导读" name='zixun'}}
+    {{if value="$key==0"}}
+    <div class="s1_top">
+        <a href="{{$first['url']}}">资讯导读</a>
+    </div>
+    <div class="s2_bot">
+        <dl>
+        <dd><a href="{{$zixun['url']}}">{{$zixun['title']}}</a></dd>
+    {{else}}
+        <dd><a href="{{$zixun['url']}}">{{$zixun['title']}}</a></dd>
+    {{endif}}
+    {{endkleinstuck}}
+        </dl>
+    </div>
+    <div class="ad_right">
+        <img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r24_c26.jpg" />
+    </div>
+</div>
+ <!--right-->
+</div>
+
+<!--ad-->
+<div class="ad_main"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r28_c2.jpg" /></div>
+<!--ad-->
+
+<!--信息-->
+<div class="main_inf">
+ <!--left-->
+<div class="main_inf_left">
+{{kleinstuck catname="交易指南" name="jiaoyi" rows='6'}}
+    {{if value="$key==0"}}
+    <div class="r1_top">
+        <p><a href="{{$first['url']}}">交易指南</a></p>
+        <span><a href="{{$first['url']}}">更多>> </a></span>
+    </div>
+    <div class="j_yi_bot">
+    <ul>
+        <li><em>开户指南</em><a href="{{$jiaoyi['url']}}"> {{$jiaoyi['title']}}… 详情></a></li>
+    {{else}}
+        <li><em>开户指南</em><a href="{{$jiaoyi['url']}}"> {{$jiaoyi['title']}}… 详情></a></li>
+    {{endif}}
+{{endkleinstuck}}
+    </ul>
+    </div>
+    <div class="r1_top">
+
+{{kleinstuck catname="常见问题" name="changjian" rows='6'}}
+    {{if value="$key==0"}}
+        <p><a href="{{$first['url']}}">常见问题</a></p>
+        <span><a href="{{$first['url']}}">更多>> </a></span>
+    </div>
+    <div class="j_yi_bot1">
+    <dl>
+        <dd><span>{{date("m-d",$changjian['addtime'])}}</span><a href="{{$changjian['url']}}">{{$changjian['title']}}</a></dd>
+    {{else}}
+        <dd><span>{{date("m-d",$changjian['addtime'])}}</span><a href="{{$changjian['url']}}">{{$changjian['title']}}</a></dd>
+    {{endif}}
+{{endkleinstuck}}
+   </dl>
+  </div>
+ </div>
+ <!--left-->
+ <!--mid-->
+ <div class="main_inf_mid1">
+   <div class="main_inf_mid_top" >
+   <p><a href="#">学习园地</a></p>
+   <span><a href="#">更多>> </a></span>
+  </div>
+  <!--1-->
+  <div id="Tab6">
+    <div class="Menubox6">
+      <ul>
+       <li class="hover" onmouseover="setTab('two',1,5)" id="two1">
+      <a href="#">投资入门</a>
+     </li>
+     <li onmouseover="setTab('two',2,5)" id="two2">
+       <a href="#">基本面分析</a>
+     </li>
+     <li onmouseover="setTab('two',3,5)" id="two3">
+       <a href="#">技术面分析</a>
+     </li>
+     <li onmouseover="setTab('two',4,5)" id="two4">
+       <a href="#">投资技巧 </a>
+     </li>
+     
+    </ul>
+    </div>
+    <div class="Contentbox6">
+    <div class="hover" id="con_two_1"> 
+     <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_2">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：f圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_3">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_4">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+    <div style="display:none" id="con_two_5">
+    <div class="j_yi_bot1">
+  <dl>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><span>12-20</span><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><span>12-20</span><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+   </dl>
+  </div>
+    </div>
+   </div>
+  </div>
+  <!--1-->
+{{kleinstuck catname="媒体报道" name="meiti" rows='6'}}
+    {{if value="$key==0"}}
+        <div class="main_inf_mid_top" style="margin-top:18px" >
+        <p><a href="{{$first['url']}}">媒体报道</a></p>
+        <span><a href="{{$first['url']}}">更多>> </a></span>
+        </div>
+        <div class="j_yi_bot1">
+        <dl>
+        <dd><span>{{date("m-d",$meiti['addtime'])}}</span><a href="#">{{$meiti['title']}}</a></dd>
+    {{else}}
+        <dd><span>{{date("m-d",$meiti['addtime'])}}</span><a href="#">{{$meiti['title']}}</a></dd>
+    {{endif}}
+{{endkleinstuck}}
+   </dl>
+  </div>
+ </div>
+ <!--mid-->
+ <!--right-->
+ <div class="main_inf_right1">
+  <div class="main_inf_ad">
+   <ul>
+    <li><a href="#"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index1_r43_c44.jpg" /></a></li>
+    <li><a href="#"><img src="{{__ROOT__}}/{{__TEMPLATE__}}/images/index_r45_c44.jpg" /></a></li>
+   </ul>
+  </div>
+  <div class="s1_top">
+   <a href="#">资讯导读</a>
+  </div>
+  <div class="s2_bot">
+   <dl>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><a href="#">12月最实惠：年终促冲量，直省30% </a></dd>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+    <dd><a href="#">12月最实惠：年终大促冲量，直省30% </a></dd>
+    <dd><a href="#">喜迎双节：礼迎圣诞，价给元旦 </a></dd>
+   </dl>
+  </div>
+ </div>
+ <!--right-->
+</div>
+<!--信息-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{include file='__TEMPLATE__/footer.php'}}
